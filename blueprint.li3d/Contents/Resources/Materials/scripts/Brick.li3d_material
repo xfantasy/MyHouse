@@ -1,0 +1,26 @@
+
+material {7aab4d66-75f4-6743-bfdb-e7d72898935b}
+{
+	li3d_legacynames "Brick/001 Baked Brick"
+	li3d_names "Brick/001 Baked Brick"
+	li3d_flags readonly
+	technique
+	{
+		pass
+		{
+			ambient 0.564285 0.472232 0.389262 1
+			diffuse 0.806122 0.460656 0.263485 1
+			specular 0.214286 0.172423 0.167764 1 55
+			emissive 0.0153061 0.0105312 0.00902041 1
+
+			texture_unit
+			{
+				texture brick/Bricks_Red-n.jpg
+				scale 0.25 0.25
+			}
+		}
+
+	}
+
+
+}

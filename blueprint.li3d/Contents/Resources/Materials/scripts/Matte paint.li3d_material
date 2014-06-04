@@ -1,0 +1,77 @@
+
+material {654f6b9a-ff55-5640-a463-718797736cb1}
+{
+	li3d_legacynames "Matte paint/9006 white aluminium"
+	li3d_names "Matte paint/9006 white aluminium"
+	li3d_flags readonly
+	transparency_casts_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.452663 0.472166 0.514858 1
+			diffuse 0.646662 0.666285 0.709102 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+material {a6f3e02a-d7d8-0f41-8aa3-8ef13c2b3b5d}
+{
+	li3d_legacynames "Matte paint/9001 cream"
+	li3d_names "Matte paint/9001 cream"
+	li3d_flags readonly
+	technique
+	{
+		pass
+		{
+			ambient 0.70465 0.692288 0.667562 1
+			diffuse 0.996262 0.988983 0.938109 1
+			specular 0.01 0.01 0.01 1 12
+		}
+
+	}
+
+
+}
+
+material {c2542081-5ccf-c14f-b117-9df684bb1a7b}
+{
+	li3d_legacynames "Matte paint/9003 signal white"
+	li3d_names "Matte paint/9003 signal white"
+	li3d_flags readonly
+	technique
+	{
+		pass
+		{
+			ambient 0.697255 0.697255 0.697255 1
+			diffuse 0.996078 0.996078 0.996078 1
+			specular 0.0663266 0.0663266 0.0663266 1 2
+		}
+
+	}
+
+
+
+}
+
+material {d84e37c8-3471-3445-812f-db43b834c156}
+{
+	li3d_legacynames "Matte paint/9007 grey aluminium"
+	li3d_names "Matte paint/9007 grey aluminium"
+	li3d_flags readonly
+	transparency_casts_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.341146 0.334944 0.328741 1
+			diffuse 0.486442 0.478492 0.46688 1
+			specular 0.0355159 0.0357143 0.0353174 1 3
+		}
+
+	}
+
+}

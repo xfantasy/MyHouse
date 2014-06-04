@@ -1,0 +1,59 @@
+
+material {72d080a5-31ce-5944-b4d2-53b1b235de32}
+{
+	li3d_legacynames "Glossy paint/9016 traffic white"
+	li3d_names "Glossy paint/9016 traffic white"
+	li3d_flags readonly
+	transparency_casts_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.691669 0.710363 0.710363 1
+			diffuse 0.988098 0.996246 0.996078 1
+			specular 0.988636 1 1 1 128
+		}
+
+	}
+
+}
+
+material {9c16d0bc-deb6-2b47-8a82-61dc8ba46a59}
+{
+	li3d_legacynames "Glossy paint/1001 beige"
+	li3d_names "Glossy paint/1001 beige"
+	li3d_flags readonly
+	technique
+	{
+		pass
+		{
+			ambient 0.597331 0.521195 0.403194 1
+			diffuse 0.85333 0.729671 0.55259 1
+			specular 1 0.894441 0.731809 1 125
+		}
+
+	}
+
+
+}
+
+material {f432ed18-2d94-1547-b6ac-1288fc1b07ae}
+{
+	li3d_legacynames "Glossy paint/1000 green beige"
+	li3d_names "Glossy paint/1000 green beige"
+	li3d_flags readonly
+	transparency_casts_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.606539 0.547653 0.423383 1
+			diffuse 0.840436 0.782361 0.584146 1
+			specular 1 0.960491 0.749742 1 125
+		}
+
+	}
+
+
+
+}

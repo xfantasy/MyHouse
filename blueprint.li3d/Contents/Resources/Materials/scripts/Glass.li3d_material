@@ -1,0 +1,101 @@
+
+material {045efeae-c101-a24d-bd9b-6f5600100adb}
+{
+	li3d_legacynames "Glass/White"
+	li3d_names "Glass/White"
+	li3d_flags readonly
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7 0.3
+			diffuse 1 1 1 0.3
+			specular 1 1 1 0.3 125
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture EnvEffects/GreyBlock.jpg
+			}
+
+			texture_unit
+			{
+				texture EnvEffects/env_polonium.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+				env_map spherical
+			}
+		}
+
+	}
+
+
+
+}
+
+material {7b6aa80e-c070-1d4c-8ddd-a00da2061ac3}
+{
+	li3d_legacynames "Glass/Blue"
+	li3d_names "Glass/Blue"
+	li3d_flags readonly
+	technique
+	{
+		pass
+		{
+			ambient 0.0604396 0.265934 0.471428 0.3
+			diffuse 0.0668949 0.375481 0.673469 0.3
+			specular 0.122985 0.419469 0.72449 0.3 125
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture EnvEffects/GreyBlock.jpg
+			}
+
+			texture_unit
+			{
+				texture EnvEffects/env_polonium.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+				env_map spherical
+			}
+		}
+
+	}
+
+}
+
+material {e3c8bdb2-7982-d64e-a14a-c911684c3fa2}
+{
+	li3d_legacynames "Glass/Light_blue"
+	li3d_names "Glass/Light_blue"
+	li3d_flags readonly
+	technique
+	{
+		pass
+		{
+			ambient 0.346946 0.949538 1 0.3
+			diffuse 0.495637 0.818926 1 0.3
+			specular 0.821995 0.887755 0.887755 0.3 125
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture EnvEffects/GreyBlock.jpg
+			}
+
+			texture_unit
+			{
+				texture EnvEffects/env_polonium.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+				env_map spherical
+			}
+		}
+
+	}
+
+}

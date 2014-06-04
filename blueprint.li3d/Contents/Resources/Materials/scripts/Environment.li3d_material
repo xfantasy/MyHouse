@@ -1,0 +1,25 @@
+
+material {6ea97e2d-867d-714d-80b5-b8885ce48512}
+{
+	li3d_legacynames "Environment/Grass Base"
+	li3d_names "Environment/Grass Base"
+	li3d_flags readonly
+	technique
+	{
+		pass
+		{
+			ambient 0.341358 0.35 0.35 1
+			diffuse 0.487654 0.5 0.5 1
+			specular 0.0249304 0.0255102 0.0255102 1 4
+
+			texture_unit
+			{
+				texture Environment/grass13_3wF$2aHKQOJPOABvFH$n_A.jpg
+				scale 0.333333 0.333333
+			}
+		}
+
+	}
+
+
+}
